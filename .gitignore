@@ -1,0 +1,10 @@
+host/node_modules
+host/dist
+host/out
+false
+target/node_modules
+target/dist
+target/out
+.idea
+*.deb
+*.tar

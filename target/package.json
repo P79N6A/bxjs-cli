@@ -1,0 +1,40 @@
+{
+  "name": "@bxjs/bxjs-cli-target",
+  "version": "1.0.0",
+  "description": "bxjs docker runtime command line interface (docker remote command executor)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bxjs": "./dist/app/bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bxjs/bxjs-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bxjs/bxjs-cli/issues"
+  },
+  "homepage": "https://github.com/bxjs/bxjs-cli#readme",
+  "dependencies": {
+    "@types/express": "^4.11.1",
+    "@types/fs-extra": "^5.0.0",
+    "@types/lodash": "^4.14.101",
+    "@types/node": "^8.9.4",
+    "@types/nunjucks": "^3.0.0",
+    "body-parser": "^1.18.2",
+    "commander": "^2.16.0",
+    "express": "^4.16.2",
+    "forever": "^0.15.3",
+    "nodemon": "^1.14.12",
+    "ts-node": "^6.0.5",
+    "ts-simple-ast": "^6.12.0",
+    "tspoon": "^1.0.460",
+    "typescript": "^2.7.1",
+    "yargs": "^11.0.0"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "@bxjs/bxjs-cli",
+  "version": "1.0.68",
+  "description": "bxjs command line interface (docker remote command wrapper)",
+  "bin": {
+    "bxjs": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bxjs/bxjs-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bxjs/bxjs-cli/issues"
+  },
+  "homepage": "https://github.com/bxjs/bxjs-cli#readme",
+  "dependencies": {
+    "@alicloud/fun": "^2.1.0",
+    "@bxjs/base": "^1.4.360",
+    "@types/fs-extra": "^5.0.0",
+    "@types/jest": "^23.1.4",
+    "@types/lodash": "^4.14.101",
+    "@types/node": "^8.9.4",
+    "@types/nunjucks": "^3.0.0",
+    "@types/ramda": "^0.25.19",
+    "body-parser": "^1.18.2",
+    "circular-json": "^0.5.5",
+    "commander": "^2.16.0",
+    "cross-spawn": "^6.0.5",
+    "error-stack-parser": "^2.0.2",
+    "express": "^4.16.2",
+    "forever": "^0.15.3",
+    "glob": "^7.1.2",
+    "jest": "^23.2.0",
+    "nodemon": "^1.14.12",
+    "puppeteer": "^1.5.0",
+    "ts-jest": "^23.0.0",
+    "ts-node": "^6.0.5",
+    "ts-simple-ast": "^6.12.0",
+    "tspoon": "^1.0.460",
+    "typescript": "^2.9.2",
+    "yargs": "^11.0.0"
+  }
+}
